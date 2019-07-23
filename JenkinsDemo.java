@@ -17,7 +17,7 @@ public class JenkinsDemo
 		//This will open the google page
 		driver.get("http://google.in"); 
 		
-		//We expect the title “Google “ should be present 
+		//We expect the title â€œGoogle â€œ should be present 
 		String Expectedtitle = "Google";
 		
 		//This will fetch the actual title 
@@ -30,6 +30,8 @@ public class JenkinsDemo
 		//print out the result
 		System.out.println("After Assertion " + Expectedtitle + " " + Actualtitle + " Title matched ");
 		
+		System.out.println("Edited code in child branch");
+
 		//Close Browser and quit
 		driver.close();
 		//driver.quit();
