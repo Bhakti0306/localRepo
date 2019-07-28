@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 public class JenkinsDemo 
 {
-	@Test
+	//@Test
 	public void testgooglesearch()
 	{
 		System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\Drivers\\chromedriver.exe");
