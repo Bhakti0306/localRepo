@@ -31,6 +31,8 @@ public class JenkinsDemo
 		System.out.println("After Assertion " + Expectedtitle + " " + Actualtitle + " Title matched ");
 		
 		System.out.println("Edited code in child branch");
+		System.out.println("pushing code in GitHUB");
+
 
 		//Close Browser and quit
 		driver.close();
